@@ -1,12 +1,12 @@
 # ~/.config/starship.toml
 
-# Insert 
+# Insert a new empty line
 add_newline = false
 command_timeout = 1000
 format = """\
 ⏻ $username$hostname$kubernetes$directory$git_branch$git_status"""
 
-# Drop ugly default prompt characters
+# Remove classic prompt characters
 [character]
 success_symbol = ""
 error_symbol = ""
@@ -76,26 +76,6 @@ deleted = ' '
 [kubernetes]
 format = 'via [󱃾 $context\($namespace\)](bold purple) '
 disabled = false
-
-# ---
-
-[vagrant]
-disabled = true
-
-[docker_context]
-disabled = true
-
-[helm]
-disabled = true
-
-[python]
-disabled = true
-
-[nodejs]
-disabled = true
-
-[ruby]
-disabled = true
 
 [terraform]
 disabled = true
