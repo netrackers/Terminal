@@ -1,2 +1,2 @@
-# Terminal
-Configuration for the Windows Terminal (PS)
+# Terminal Personalization
+Configuration for the Windows Terminal (PS) using Chocolatey
